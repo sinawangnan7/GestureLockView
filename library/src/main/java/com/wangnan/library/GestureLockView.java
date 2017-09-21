@@ -324,6 +324,7 @@ public class GestureLockView extends View {
     private void moveEventDeal(float eventX, float eventY) {
         // 1.修改点状态
         modifyPointStatus(eventX, eventY);
+
     }
 
     /**
