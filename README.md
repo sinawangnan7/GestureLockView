@@ -7,6 +7,8 @@
 
 **原始效果演示：**
 
+完整效果请参看Youtube视频（需要翻墙）:[https://youtu.be/pwFgJ79Y-Qg](https://youtu.be/pwFgJ79Y-Qg)
+
 **仿第三方应用效果演示：**
 
 ![copy_360](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_360.gif)
