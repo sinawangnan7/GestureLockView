@@ -13,7 +13,7 @@
 
 请参看Youtube视频:[https://youtu.be/pwFgJ79Y-Qg](https://youtu.be/pwFgJ79Y-Qg)（需要翻墙）
 
-**仿第三方应用效果演示：**
+**仿第三方应用效果演示：（说明该框架对“界面表现形式”有很好扩展性）**
 
 ![copy_360](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_360.gif)
 
