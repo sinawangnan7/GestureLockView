@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textAllCaps="false"
+        android:onClick="standard"
+        android:text="手势解锁视图 (原始)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textAllCaps="false"
+        android:onClick="image"
+        android:text="手势解锁视图 (原始: 图片代替绘制)"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:onClick="system360"
+        android:text="手势解锁视图 (仿360系统)"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textAllCaps="false"
+        android:onClick="jdFinance"
+        android:text="手势解锁视图 (仿京东金融)" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textAllCaps="false"
+        android:onClick="alipay"
+        android:text="手势解锁视图 (仿支付宝)"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:textAllCaps="false"
+        android:onClick="lucom"
+        android:text="手势解锁视图 (仿陆金所)"/>
+</LinearLayout>

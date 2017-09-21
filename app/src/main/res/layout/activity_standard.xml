@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正确密码: 012345678"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_current_passord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light" />
+
+    <com.wangnan.library.GestureLockView
+        android:id="@+id/glv"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#dddddd">
+            <CheckBox
+                android:id="@+id/cb_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否显示辅助线"
+                android:padding="8dp"/>
+            <CheckBox
+                android:id="@+id/cb_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否修改颜色（绿、蓝、紫）"
+                android:padding="8dp" />
+            <CheckBox
+                android:id="@+id/cb_anim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否使用动画"
+                android:padding="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调整动画时长:"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <SeekBar
+                android:id="@+id/sb_anim_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:max="1000"
+                android:progress="200"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调整动画缩放模式:"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+                <RadioButton
+                    android:id="@+id/rb_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="normal(正常模式)"/>
+                <RadioButton
+                    android:id="@+id/rb_reverse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="reverse(反转模式)"/>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调整动画缩放比例:"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <SeekBar
+                android:id="@+id/sb_anim_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:max="30"
+                android:progress="15"/>
+            <CheckBox
+                android:id="@+id/cb_vibrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否使用触摸震动"
+                android:padding="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调整触摸震动时长:"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <SeekBar
+                android:id="@+id/sb_vibrate_duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:max="100"
+                android:progress="40"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改半径比例[0,1]:"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <SeekBar
+                android:id="@+id/sb_radius"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:max="100"
+                android:progress="60"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改连线厚度:"
+                android:textStyle="bold"
+                android:padding="8dp" />
+            <SeekBar
+                android:id="@+id/sb_line_thickness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:max="50"
+                android:progress="10"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
