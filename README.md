@@ -9,7 +9,9 @@
 
 ![origin](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/origin.gif)
 
-完整效果请参看Youtube视频:[https://youtu.be/pwFgJ79Y-Qg](https://youtu.be/pwFgJ79Y-Qg)（需要翻墙）
+由于可修改参数较多，使用GIF演示不便，作者录制了视频演示本Demo的完整效果：
+
+请参看Youtube视频:[https://youtu.be/pwFgJ79Y-Qg](https://youtu.be/pwFgJ79Y-Qg)（需要翻墙）
 
 **仿第三方应用效果演示：**
 
