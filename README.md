@@ -7,7 +7,9 @@
 
 **原始效果演示：**
 
-完整效果请参看Youtube视频（需要翻墙）:[https://youtu.be/pwFgJ79Y-Qg](https://youtu.be/pwFgJ79Y-Qg)
+![origin](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/origin.gif)
+
+完整效果请参看Youtube视频:[https://youtu.be/pwFgJ79Y-Qg](https://youtu.be/pwFgJ79Y-Qg)（需要翻墙）
 
 **仿第三方应用效果演示：**
 
