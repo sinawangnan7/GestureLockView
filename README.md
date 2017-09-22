@@ -16,7 +16,7 @@
 
 ### 完整效果
 
-作者录制了视频演示本Demo的完整效果：
+作者录制了完整的Demo视频演示：
 
 **Youtube视频**[2分58秒] (需要翻墙): [https://youtu.be/-WRLJzNZ8sU](https://youtu.be/-WRLJzNZ8sU)
 
@@ -51,9 +51,11 @@ dependencies {
 
 ## 使用方法
 
-1.基础自定义属性请参看 [Github Wiki](https://github.com/sinawangnan7/GestureLockView/wiki)
+1.基础自定义属性请参看 [Github Wiki Attr](https://github.com/sinawangnan7/GestureLockView/wiki)
 
-2.12
+2.设置手势监听器请参看 [Github Wiki Listener](https://github.com/sinawangnan7/GestureLockView/wiki)
+
+3.自定义绘制请参看 [Github Wiki CustomPainter](https://github.com/sinawangnan7/GestureLockView/wiki)
 
 ## 问题反馈和建议
 
