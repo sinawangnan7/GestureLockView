@@ -31,5 +31,4 @@
         app:normal_color="#68B1E6"
         app:press_color="#1E8BDE"
         app:error_color="#ED4446"/>
-
 </FrameLayout>
