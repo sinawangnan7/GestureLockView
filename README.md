@@ -36,6 +36,4 @@
 ![copy_jd](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_jd.gif)
 ![copy_alipay](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_alipay.gif)
 
-## Demo地址
-
-APK安装包:[GestureLockViewDemo.apk](https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk)
+**Demo地址:** [GestureLockViewDemo.apk](https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk)
