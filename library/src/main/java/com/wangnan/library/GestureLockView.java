@@ -66,6 +66,8 @@ public class GestureLockView extends View {
 
     /**
      * 点半径（取值范围[0,viewSize的1/6]，通过{@link GestureLockView#mRadiusRatio}属性进行控制）
+     *
+     * 注：mRadius代表单位点的可见半径和有效触摸半径，不会随单位点的动画而有所改变
      */
     private int mRadius;
 

@@ -3,10 +3,10 @@ apply plugin: 'com.novoda.bintray-release'
 
 publish {
     userOrg = 'wangnan' // bintray注册的用户名
-    groupId = 'com.wangnan' // compile引用时的第1部分groupId
+    groupId = 'com.sinawangnan7' // compile引用时的第1部分groupId
     artifactId = 'gesturelockview' // compile引用时的第2部分项目名
-    publishVersion = '0.0.1' // 版本号
-    desc = 'GestureLockView is an easy to use and extensible framework.' // 描述信息
+    publishVersion = '1.0.0' // 版本号
+    desc = 'GestureLockView is an easy to use and extensible gestures to unlock framework.' // 描述信息
     website = 'https://github.com/sinawangnan7/GestureLockView' // 项目地址
 }
 
