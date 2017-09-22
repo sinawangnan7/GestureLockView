@@ -1,6 +1,6 @@
 # GestureLockView
 
-**GestureLockView是一个提供给Android的、简单易用的、可扩展的手势解锁视图。**
+**GestureLockView**是一个提供给Android的、简单易用的、可扩展的手势解锁视图。
 
 ## 功能特性
 
@@ -14,13 +14,13 @@
 
 ## 效果演示
 
-#### 完整效果
+### 完整效果
 
 作者录制了视频演示本Demo的完整效果：
 
-**Youtube视频[2分58秒]** (需要翻墙): [https://youtu.be/-WRLJzNZ8sU](https://youtu.be/-WRLJzNZ8sU)
+*Youtube视频[2分58秒]* (需要翻墙): [https://youtu.be/-WRLJzNZ8sU](https://youtu.be/-WRLJzNZ8sU)
 
-#### 演示说明
+### 细节说明
 
 **GestureLockView** 内置了一个默认的解锁视图，参考原型是**支付宝Android APP**，但是作者对此原型进行了简化，效果如下:
 
