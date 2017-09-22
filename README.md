@@ -51,7 +51,7 @@ dependencies {
 
 ## 使用方法
 
-1.基础自定义属性请参看 [Github Wiki Attr](https://github.com/sinawangnan7/GestureLockView/wiki)
+1.基础自定义属性请参看 [Github Wiki Attr](https://github.com/sinawangnan7/GestureLockView/wiki/Wiki-Attr)
 
 2.设置手势监听器请参看 [Github Wiki Listener](https://github.com/sinawangnan7/GestureLockView/wiki)
 
