@@ -51,11 +51,11 @@ dependencies {
 
 ## 使用方法
 
-1.基础自定义属性请参看 [Github Wiki Attr](https://github.com/sinawangnan7/GestureLockView/wiki/Wiki-Attr)
+1.基础自定义属性请参看 [Github Wiki Attr](https://github.com/sinawangnan7/GestureLockView/wiki/Attr)
 
-2.设置手势监听器请参看 [Github Wiki Listener](https://github.com/sinawangnan7/GestureLockView/wiki)
+2.设置手势监听器请参看 [Github Wiki Listener](https://github.com/sinawangnan7/GestureLockView/Listener)
 
-3.自定义绘制请参看 [Github Wiki CustomPainter](https://github.com/sinawangnan7/GestureLockView/wiki)
+3.自定义绘制请参看 [Github Wiki CustomPainter](https://github.com/sinawangnan7/GestureLockView/CustomePainter)
 
 ## 问题反馈和建议
 
