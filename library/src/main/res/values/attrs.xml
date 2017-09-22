@@ -35,7 +35,7 @@
         <attr name="normal_image" format="reference" />
         <!-- 按下状态点图片 -->
         <attr name="press_image" format="reference" />
-        <!-- 无出错状态点图片 -->
+        <!-- 出错状态点图片 -->
         <attr name="error_image" format="reference" />
     </declare-styleable>
 </resources>
