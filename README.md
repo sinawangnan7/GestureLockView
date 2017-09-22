@@ -22,7 +22,7 @@
 
 ### 细节说明
 
-**GestureLockView** 内置了一个默认的解锁视图，参考原型是**支付宝Android APP**，但是作者对此原型进行了简化，效果如下:
+**GestureLockView** 内置了一个默认的解锁视图，参考原型是**支付宝Android APP**，但作者对此原型进行了简化，效果:
 
 ![origin](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/origin.gif)
 
@@ -38,4 +38,4 @@
 
 ## Demo地址
 
-[https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk](https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk)
+APK安装包:[GestureLockViewDemo.apk](https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk)
