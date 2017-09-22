@@ -47,19 +47,13 @@ public abstract class Painter {
     /**
      * 手势解锁视图
      */
-    protected GestureLockView mGestureLockView;
-
-    /**
-     * 手势解锁视图点半径值
-     */
-    private int mRadius;
+    private GestureLockView mGestureLockView;
 
     /**
      * 关联手势解锁视图
      *
      * @param gestureLockView 手势解锁视图
      * @param context         上下文环境
-     * @param radius          半径值
      * @param normalColor     正常状态画笔颜色
      * @param pressColor      按下状态画笔颜色
      * @param errorColor      错误状态画笔颜色
@@ -67,21 +61,19 @@ public abstract class Painter {
      * @param pressImageId    按下状态图片资源Id
      * @param errorImageId    出错状态图片资源Id
      */
-    public void attach(GestureLockView gestureLockView, Context context, int radius,
+    public void attach(GestureLockView gestureLockView, Context context,
                        int normalColor, int pressColor, int errorColor,
                        int normalImageId, int pressImageId, int errorImageId) {
         // 1.关联手势解锁视图
         mGestureLockView = gestureLockView;
-        // 2.记录原始点半径大小
-        mRadius = radius;
-        // 3.设置Painter画笔颜色
+        // 2.设置Painter画笔颜色
         setNormalColor(normalColor);
         setPressColor(pressColor);
         setErrorColor(errorColor);
-        // 4.设置Painter图片引用
-        setNormalBitmap(context, radius, normalImageId);
-        setPressBitmap(context, radius, pressImageId);
-        setErrorBitmap(context, radius, errorImageId);
+        // 3.设置Painter图片引用
+        setNormalBitmap(context, mGestureLockView.getRadius(), normalImageId);
+        setPressBitmap(context, mGestureLockView.getRadius(), pressImageId);
+        setErrorBitmap(context, mGestureLockView.getRadius(), errorImageId);
     }
 
     /**
@@ -143,6 +135,13 @@ public abstract class Painter {
         } else {
             mErrorBitmap = null;
         }
+    }
+
+    /**
+     * 获取手势解锁视图
+     */
+    public GestureLockView getGestureLockView(){
+        return mGestureLockView;
     }
 
     /** ********************************** 辅助线的绘制方法(↓) **************************************/
@@ -215,11 +214,11 @@ public abstract class Painter {
     private void drawBitmap(Point point, int radius, Bitmap bitmap, Canvas canvas, Paint paint) {
         // 判断mGestureLockView开启了动画
         if (mGestureLockView.isUseAnim()) {
-            RectF rectF = new RectF(point.x - mRadius, point.y - mRadius, point.x + mRadius, point.y + mRadius);
+            RectF rectF = new RectF(point.x - mGestureLockView.getRadius(), point.y - mGestureLockView.getRadius(), point.x + mGestureLockView.getRadius(), point.y + mGestureLockView.getRadius());
             int index = canvas.saveLayer(rectF, paint, Canvas.ALL_SAVE_FLAG);
             canvas.drawCircle(point.x, point.y, radius, paint);
             paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
-            canvas.drawBitmap(bitmap, point.x - mRadius, point.y - mRadius, paint);
+            canvas.drawBitmap(bitmap, point.x - mGestureLockView.getRadius(), point.y - mGestureLockView.getRadius(), paint);
             paint.setXfermode(null);
             canvas.restoreToCount(index);
         } else {

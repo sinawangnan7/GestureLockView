@@ -60,6 +60,6 @@ public class LUcomPainter extends Painter {
      */
     @Override
     public void drawErrorPoint(Point point, Canvas canvas, Paint errorPaint) {
-        // TODO 陆金所没有错误状态的点（如果需要使用绘制错误状态的点，请重新自定义Painter）
+        // TODO 陆金所没有错误状态的点（如果需要使用绘制错误状态的点，请继承该Painter重写drawErrorPoint方法或重新自定义Painter）
     }
 }

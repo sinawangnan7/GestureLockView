@@ -82,7 +82,7 @@ public class AliPayPainter extends Painter {
         super.drawLines(points, eventX, eventY, lineSize, canvas);
         // 绘制三角箭头（又重新复习了一遍三角函数...╮(╯▽╰)╭）
         // 1.三角函数运算,确定3个顶点坐标
-        int radius = mGestureLockView.getRadius();
+        int radius = getGestureLockView().getRadius();
         for (int i = 0; i < points.size() - 1; i++) {
             Point prePoint = points.get(i);
             Point nextPoint = points.get(i + 1);

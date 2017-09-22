@@ -249,7 +249,7 @@ public class GestureLockView extends View {
      */
     private void initPainter() {
         // 使Painter关联当前手势解锁视图
-        mPainter.attach(this, getContext(), mRadius,
+        mPainter.attach(this, getContext(),
                 mNormalColor, mPressColor, mErrorColor,
                 mNormalImageId, mPressImageId, mErrorImageId);
     }
