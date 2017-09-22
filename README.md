@@ -1,12 +1,12 @@
 # GestureLockView
 
-**GestureLockView是一个提供给Android的、简单易用的、可扩展的手势解锁视图（框架）。**
+**GestureLockView是一个提供给Android的、简单易用的、可扩展的手势解锁视图。**
 
 ## 功能特性
 
 - **GestureLockView** 内置了一个默认的手势解锁视图，实现了手势解锁的基础功能。
 
-- **GestureLockView** 支持对原始视图进行简单的样式调整、动画设置、触摸震动设置。
+- **GestureLockView** 支持对内置视图进行简单的样式调整、动画设置、触摸震动设置。
 
 - **GestureLockView** 支持自定义绘制，实现不同的样式效果。
 
