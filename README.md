@@ -51,7 +51,9 @@ dependencies {
 
 ## 使用方法
 
-请参看 [Github Wiki]()
+1.基础自定义属性请参看 [Github Wiki](https://github.com/sinawangnan7/GestureLockView/wiki)
+
+2.12
 
 ## 问题反馈和建议
 
@@ -59,7 +61,7 @@ dependencies {
 
 2.[简书](http://www.jianshu.com/u/5ffe9ada44b0): 给作者发简信
 
-## License（开源协议）
+## 开源协议
 
 ```
    Copyright 2017 wangnan
