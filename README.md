@@ -18,7 +18,7 @@
 
 作者录制了视频演示本Demo的完整效果：
 
-*Youtube视频[2分58秒]* (需要翻墙): [https://youtu.be/-WRLJzNZ8sU](https://youtu.be/-WRLJzNZ8sU)
+**Youtube视频**[2分58秒] (需要翻墙): [https://youtu.be/-WRLJzNZ8sU](https://youtu.be/-WRLJzNZ8sU)
 
 ### 细节说明
 
