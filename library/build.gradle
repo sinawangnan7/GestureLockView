@@ -2,12 +2,12 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
 publish {
-    userOrg = 'wangnan' // bintray注册的用户名
-    groupId = 'com.wangnan' // compile引用时的第1部分groupId
-    artifactId = 'gesturelockview' // compile引用时的第2部分项目名
-    publishVersion = '1.0.0' // 版本号
-    desc = 'GestureLockView is an easy to use and extensible gestures to unlock framework.' // 描述信息
-    website = 'https://github.com/sinawangnan7/GestureLockView' // 项目地址
+    userOrg = 'wangnan'
+    groupId = 'com.wangnan'
+    artifactId = 'gesturelockview'
+    publishVersion = '1.0.0'
+    desc = 'GestureLockView is an easy to use and extensible gestures to unlock framework for Android.'
+    website = 'https://github.com/sinawangnan7/GestureLockView'
 }
 
 android {
