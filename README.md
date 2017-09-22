@@ -40,6 +40,8 @@
 
 ## Gradle引入
 
+在需要使用的Moudle下，找到build.gradle文件添加库依赖:
+
 ```
 dependencies {
 
@@ -53,11 +55,11 @@ dependencies {
 
 ## 问题反馈和建议
 
-1.直接在Github上提问[GitHub Issues](https://github.com/sinawangnan7/GestureLockView/issues)
+1.[GitHub Issues](https://github.com/sinawangnan7/GestureLockView/issues): 直接在Github上提问
 
-2.给作者发简信[简书](http://www.jianshu.com/u/5ffe9ada44b0)
+2.[简书](http://www.jianshu.com/u/5ffe9ada44b0): 给作者发简信
 
-## 开源协议
+## License（开源协议）
 
 ```
    Copyright 2017 wangnan
