@@ -37,3 +37,13 @@
 ![copy_alipay](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_alipay.gif)
 
 **Demo地址:** [GestureLockViewDemo.apk](https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk)
+
+## Gradle引入
+
+```
+dependencies {
+    // 手势解锁框架
+    compile 'com.wangnan:gesturelockview:1.0.0'
+}
+```
+
