@@ -42,8 +42,14 @@
 
 ```
 dependencies {
-    // 手势解锁框架
+
     compile 'com.wangnan:gesturelockview:1.0.0'
 }
 ```
+
+## 使用文档
+
+请参看[Github Wiki]
+
+## 问题反馈和建议
 
