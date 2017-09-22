@@ -33,9 +33,6 @@
 **GestureLockView** 支持自定义绘制，实现不同的演示效果：
 
 ![copy_360](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_360.gif)
-
 ![copy_jd](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_jd.gif)
-
 ![copy_alipay](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_alipay.gif)
-
 ![copy_lucom](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_lucom.gif)
