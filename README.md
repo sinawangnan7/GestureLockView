@@ -30,7 +30,7 @@
 
 ![copy_image](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_image.gif)
 
-**GestureLockView** 支持自定义绘制，实现不同的演示效果：
+**GestureLockView** 支持自定义绘制，实现不同的演示效果，国内多数APP手势解锁效果都可以使用GestureLockView实现，举例：：
 
 ![copy_360](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_360.gif)
 ![copy_jd](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_jd.gif)
