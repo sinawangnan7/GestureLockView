@@ -49,7 +49,11 @@ dependencies {
 
 ## 使用文档
 
-请参看[Github Wiki]
+请参看[Github Wiki]()
 
 ## 问题反馈和建议
 
+1.[GitHub Issues](https://github.com/sinawangnan7/GestureLockView/issues)
+2.[简书](http://www.jianshu.com/u/5ffe9ada44b0)
+
+## 开源协议
