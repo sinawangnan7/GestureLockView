@@ -40,7 +40,7 @@
 
 ## Gradle引入
 
-在需要使用的Moudle下，找到build.gradle文件添加库依赖:
+在需要使用的module下，找到build.gradle文件添加库依赖:
 
 ```
 dependencies {
