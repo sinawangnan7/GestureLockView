@@ -1,6 +1,6 @@
 # GestureLockView
 
-**GestureLockView**是一个提供给Android的、简单易用的、可扩展的手势解锁视图。
+**GestureLockView**是一个提供给Android的、简单易用的、可扩展的手势解锁框架。
 
 ## 功能特性
 
@@ -34,7 +34,9 @@
 
 ![copy_360](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_360.gif)
 ![copy_jd](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_jd.gif)
+
 ![copy_alipay](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_alipay.gif)
+![copy_lucom](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/copy_lucom.gif)
 
 **Demo地址:** [GestureLockViewDemo.apk](https://github.com/sinawangnan7/GestureLockView/blob/master/GestureLockViewDemo.apk)
 
