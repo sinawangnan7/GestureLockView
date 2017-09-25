@@ -1,5 +1,7 @@
 # GestureLockView
 
+![gesture_lock](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/gesture_lock.jpg)
+
 **GestureLockView**是一个提供给Android的、简单易用的、可扩展的手势解锁框架。
 
 ## 功能特性
@@ -57,7 +59,7 @@ dependencies {
 
 2.其他基础方法请参看 [Github Wiki Method](https://github.com/sinawangnan7/GestureLockView/wiki/Method)
 
-3.自定义绘制案例 [Android进阶 - 手势解锁](https://github.com/sinawangnan7/GestureLockView/wiki/CustomePainter)（未完成）
+3.使用案例参看 [Android进阶 - 手势解锁](http://www.jianshu.com/p/b064c6325aa6)
 
 ## 问题反馈和建议
 
