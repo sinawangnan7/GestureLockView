@@ -57,11 +57,11 @@ dependencies {
 
 2.其他基础方法请参看 [Github Wiki Method](https://github.com/sinawangnan7/GestureLockView/wiki/Method)
 
-3.自定义绘制请参看 [Github Wiki CustomPainter](https://github.com/sinawangnan7/GestureLockView/wiki/CustomePainter)
+3.自定义绘制案例 [Android进阶 - 手势解锁](https://github.com/sinawangnan7/GestureLockView/wiki/CustomePainter)（未完成）
 
 ## 问题反馈和建议
 
-1.[GitHub Issues](https://github.com/sinawangnan7/GestureLockView/issues): 直接在Github上提问
+1.[GitHub Issues](https://github.com/sinawangnan7/GestureLockView/issues): 在Github上提问
 
 2.[简书](http://www.jianshu.com/u/5ffe9ada44b0): 给作者发简信
 
