@@ -22,7 +22,7 @@
 
 ### 细节说明
 
-**GestureLockView** 内置了一个默认的解锁视图，参考原型是**支付宝Android APP**，但作者对此原型进行了简化，效果:
+**GestureLockView** 内置了一个默认的解锁视图，效果如下:
 
 ![origin](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/origin.gif)
 
