@@ -55,7 +55,7 @@ dependencies {
 
 1.基础自定义属性请参看 [Github Wiki Attr](https://github.com/sinawangnan7/GestureLockView/wiki/Attr)
 
-2.设置手势监听器请参看 [Github Wiki Listener](https://github.com/sinawangnan7/GestureLockView/wiki/Listener)
+2.其他基础方法请参看 [Github Wiki Method](https://github.com/sinawangnan7/GestureLockView/wiki/Method)
 
 3.自定义绘制请参看 [Github Wiki CustomPainter](https://github.com/sinawangnan7/GestureLockView/wiki/CustomePainter)
 
