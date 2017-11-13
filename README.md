@@ -65,7 +65,7 @@ dependencies {
 
 **- 1.0.1**
 
-1.添加缩略图View，详情请查看 [Github Wiki doucumet_1.0.1](https://github.com/sinawangnan7/GestureLockView/wiki/Github Wiki doucumet_1.0.1)
+1.添加缩略图View，详情请查看 [Github Wiki Doucument_1.0.1](https://github.com/sinawangnan7/GestureLockView/wiki/Doucument_1.0.1)
 
 2.修正连接两点时中间点未添加的Bug。
 
