@@ -27,7 +27,9 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="120dp" />
+        android:layout_marginTop="100dp"
+        app:thumbnail_ratio="0.6"
+        app:thumbnail_color="#cccccc"/>
 
     <com.wangnan.library.GestureLockView
         android:id="@+id/glv"
