@@ -49,7 +49,7 @@
 ```
 dependencies {
 
-    compile 'com.wangnan:gesturelockview:1.0.0'
+    compile 'com.wangnan:gesturelockview:1.0.1'
 }
 ```
 
@@ -60,6 +60,18 @@ dependencies {
 2.其他基础方法请参看 [Github Wiki Method](https://github.com/sinawangnan7/GestureLockView/wiki/Method)
 
 3.使用案例请参看 [Android进阶 - 手势解锁](http://www.jianshu.com/p/b064c6325aa6)
+
+## 版本更新
+
+**1.0.1**
+
+1.添加缩略图View，详情查看 [Github Wiki doucumet_1.0.1](https://github.com/sinawangnan7/GestureLockView/wiki/Github Wiki doucumet_1.0.1))
+
+2.修正连接两点时中间点未添加的Bug。
+
+**1.0.0**
+
+原始手势解锁功能
 
 ## 问题反馈和建议
 
