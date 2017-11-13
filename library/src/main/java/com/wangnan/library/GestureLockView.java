@@ -421,7 +421,9 @@ public class GestureLockView extends View {
         for (int i = 0; i < 3; i++) { // i为"行标"
             for (int j = 0; j < 3; j++) { // j为"列标"
                 Point tempPoint = mPoints[i][j];
-                if (tempPoint.x == middleX && tempPoint.y == middleY) {
+                int dx = Math.abs(tempPoint.x - middleX);
+                int dy = Math.abs(tempPoint.y - middleY);
+                if (Math.sqrt(dx * dx + dy * dy) < mRadius) {
                     // 3.开启递归调用
                     tempPoint.status = Point.POINT_PRESS_STATUS;
                     addPressPoint(tempPoint);

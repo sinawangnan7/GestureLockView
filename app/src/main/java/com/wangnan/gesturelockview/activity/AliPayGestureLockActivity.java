@@ -8,6 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.wangnan.gesturelockview.R;
+import com.wangnan.library.GestureLockThumbnailView;
 import com.wangnan.library.GestureLockView;
 import com.wangnan.library.listener.OnGestureLockListener;
 import com.wangnan.library.painter.AliPayPainter;
@@ -21,6 +22,8 @@ import com.wangnan.library.painter.AliPayPainter;
 
 public class AliPayGestureLockActivity extends AppCompatActivity implements OnGestureLockListener {
 
+    GestureLockThumbnailView mGestureLockThumbnailView;
+
     GestureLockView mGestureLockView;
 
     TextView mCurrentPassword;
@@ -30,6 +33,7 @@ public class AliPayGestureLockActivity extends AppCompatActivity implements OnGe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alipay);
         mCurrentPassword = (TextView) findViewById(R.id.tv_current_passord);
+        mGestureLockThumbnailView = (GestureLockThumbnailView) findViewById(R.id.gltv);
         mGestureLockView = (GestureLockView) findViewById(R.id.glv);
         mGestureLockView.setPainter(new AliPayPainter());
         mGestureLockView.setGestureLockListener(this);
@@ -50,6 +54,7 @@ public class AliPayGestureLockActivity extends AppCompatActivity implements OnGe
     @Override
     public void onProgress(String progress) {
         mCurrentPassword.setText("当前密码: " + progress);
+        mGestureLockThumbnailView.setThumbnailView(progress, 0xFF1E8BDE);
     }
 
     /**

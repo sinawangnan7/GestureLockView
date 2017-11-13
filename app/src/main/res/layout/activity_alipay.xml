@@ -22,11 +22,19 @@
         android:textStyle="bold"
         android:textColor="@android:color/holo_red_light" />
 
+    <com.wangnan.library.GestureLockThumbnailView
+        android:id="@+id/gltv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp" />
+
     <com.wangnan.library.GestureLockView
         android:id="@+id/glv"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:layout_gravity="center"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
         app:line_thickness="1dp"
         app:normal_color="#68B1E6"
         app:press_color="#1E8BDE"

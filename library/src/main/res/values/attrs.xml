@@ -38,4 +38,12 @@
         <!-- 出错状态点图片 -->
         <attr name="error_image" format="reference" />
     </declare-styleable>
+
+    <!-- 手势解锁缩略图自定义属性 -->
+    <declare-styleable name="GestureLockThumbnailView">
+        <!-- 点半径比例（取值范围[0F,1F]） -->
+        <attr name="thumbnail_ratio" format="float" />
+        <!-- 缩略图颜色 -->
+        <attr name="thumbnail_color" format="color|reference" />
+    </declare-styleable>
 </resources>
