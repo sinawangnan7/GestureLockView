@@ -736,9 +736,4 @@ public class GestureLockView extends View {
         });
     }
 
-    @Override
-    protected void onDetachedFromWindow() {
-        super.onDetachedFromWindow();
-        clear();
-    }
 }
