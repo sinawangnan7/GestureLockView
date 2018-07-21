@@ -51,7 +51,7 @@
 ```
 dependencies {
 
-    compile 'com.wangnan:gesturelockview:1.0.1'
+    compile 'com.wangnan:gesturelockview:1.0.2'
 }
 ```
 
@@ -64,6 +64,10 @@ dependencies {
 3.使用案例请参看 [Android进阶 - 手势解锁](http://www.jianshu.com/p/b064c6325aa6)
 
 ## 版本更新
+
+**- 1.0.2**
+
+1.修复某些场景下出现崩溃的BUG。
 
 **- 1.0.1**
 
