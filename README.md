@@ -1,5 +1,17 @@
 # GestureLockView
 
+Short English Version
+- GestureLockView is an easy-to-use and extensible gesture unlocking framework for Android.  It has a built-in default gesture unlock view, which realizes the basic functions of gesture unlock,  supports simple style adjustments, animation settings, and touch vibration settings for built-in views, supports custom drawing to achieve different style effects, supports inserting pictures instead of custom drawing, improving development efficiency.
+
+Under the module that needs to be used, find the build.gradle file to add library dependencies:
+
+```
+dependencies {
+
+     compile 'com.wangnan:gesturelockview:1.0.2'
+}
+```
+
 **GestureLockView**是一个提供给Android的、简单易用的、可扩展的手势解锁框架。
 
 ![gesture_lock](https://github.com/sinawangnan7/GestureLockView/blob/master/gif/gesture_lock.jpg)
